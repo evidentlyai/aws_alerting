@@ -1,0 +1,35 @@
+<tr>
+    <td align="center" valign="top" width="100%" style="background-color: #f7f7f7;" class="content-padding">
+        <center>
+            <table cellspacing="0" cellpadding="0" width="800" class="w320">
+                <tr>
+                    <td class="header-lg">
+                        Model Monitoring
+                    </td>
+                </tr>
+                <tr>
+                    <td class="header-sm">
+                        {{ project_name }}
+                    </td>
+                </tr>
+                <tr>
+                    <td class="free-text">
+                        One or more data issues have been identified for <b>{{ project_name }}</b>.
+                        Please see monitoring report for further details.
+                    </td>
+                </tr>
+                {% if link_url %}
+                <tr>
+                    <td class="button">
+                        <div>
+                            <a class="button-mobile" href="{{ link_url }}"
+                                style="background-color:#de5739;border-radius:5px;color:#ffffff;display:inline-block;font-family:'Cabin', Helvetica, Arial, sans-serif;font-size:14px;font-weight:regular;line-height:45px;text-align:center;text-decoration:none;width:155px;-webkit-text-size-adjust:none;mso-hide:all;">
+                                Link to the Reports</a>
+                        </div>
+                    </td>
+                </tr>
+                {% endif %}
+            </table>
+        </center>
+    </td>
+</tr>
