@@ -1,6 +1,8 @@
 # aws_alerting
 Examples to leverage AWS cloud services to send email notification
 
+For more details, read the blog ["How to set up ML monitoring with email alerts using Evidently and AWS SES"](https://www.evidentlyai.com/blog/ml-monitoring-with-email-alerts-tutorial). 
+
 ### Basic email example
 ![image](https://user-images.githubusercontent.com/18636680/229774267-db65d02b-4e50-4271-9c08-7b4c084190ff.png)
 
